@@ -128,4 +128,5 @@ class ProdutosController extends Controller
 
         return redirect('produtos')->with('flash_message', 'Produto deleted!');
     }
+
 }
